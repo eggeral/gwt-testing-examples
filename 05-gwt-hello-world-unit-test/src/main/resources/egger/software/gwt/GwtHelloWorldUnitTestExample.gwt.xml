@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0-beta1//EN"
+        "http://gwtproject.org/doctype/2.8.0-beta1/gwt-module.dtd">
+<module rename-to='gwt_hello_world_unit_test_example'>
+    <!-- Inherit the core Web Toolkit stuff. -->
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+    <entry-point class='egger.software.gwt.client.GwtHelloWorldUnitTestExample'/>
+
+    <source path='client'/>
+    <source path='shared'/>
+
+    <servlet path="/echo" class="egger.software.gwt.server.EchoServiceImpl"/>
+
+    <!-- allow Super Dev Mode -->
+    <add-linker name="xsiframe"/>
+</module>
