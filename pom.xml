@@ -11,5 +11,6 @@
         <module>03-gwt-hello-world-selenium</module>
         <module>04-gwt-hello-world-gwttest</module>
         <module>05-gwt-hello-world-unit-test</module>
+        <module>06-gwt-hello-world-page-objects</module>
     </modules>
 </project>
